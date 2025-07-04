@@ -1,0 +1,135 @@
+/* Wrapper to center the card */
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;            /* Full height */
+  width: 100vw;             /* Full width */
+  background-color: #f2f2f2;
+}
+
+/* Card style */
+.signup-card {
+  background-color: #ffffff;
+  padding: 40px 40px 20px 5px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Image on top */
+.signup-image {
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  margin-bottom: 30px;
+  object-fit: contain;
+  margin-top: 0;
+  padding-top: 0%;
+
+}
+
+/* Title */
+.signup-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #040404;
+  margin-top: 10px;
+}
+
+/* Sub-description */
+.signup-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 50px;
+}
+.signup-input-wrapper {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+/* Input Group */
+.signup-input-group {
+  margin-bottom: 10px;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+}
+
+.signup-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+/* Modify input style */
+.signup-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Highlight border on focus */
+.signup-input-wrapper:focus-within {
+  border-bottom: 2px solid #d32f2f;
+}
+
+/* Button */
+.signup-button {
+    margin-top: 0;
+    margin-bottom: 40px;
+  width: 100%;
+  max-width: 250px;
+  padding: 12px;
+  background-color: #d32f2f;
+  color: white;
+  font-size: 16px;  
+  border: none;
+  border-radius: 20px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #b71c1c;
+}
+
+@media (max-width: 600px) {
+  .signup-card {
+    padding: 15px;
+  }
+
+  .signup-title {
+    font-size: 20px;
+  }
+
+  .signup-description {
+    font-size: 14px;
+  }
+
+  .signup-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+.field-error1 {
+  color: red;
+  font-size: 13px;
+  padding: 4px 0 0 0;
+  margin-left: 250px;
+  text-align: left;
+  width: 100%;
+}
+
+

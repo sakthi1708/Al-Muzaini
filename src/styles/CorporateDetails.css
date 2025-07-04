@@ -1,0 +1,224 @@
+.corporate-container {
+  padding: 40px 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.corporate-card {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.corporate-logo {
+  height: 70px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+/* Stepper */
+.stepper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0;
+  margin-bottom: 30px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  column-gap: 0;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 30px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.step-trail {
+  width: 50px;
+  height: 20px;
+  object-fit: contain;
+  margin: 0 -14px;
+}
+
+.step-icon {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+}
+
+.step span {
+  font-size: 10px;
+  margin-top: 4px;
+  max-width: 60px;
+  line-height: 1.2;
+  word-break: break-word;
+  white-space: normal;
+}
+
+/* Heading */
+.form-heading {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Form */
+.corporate-form {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  max-width: 100%;
+}
+
+/* Input Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Replace all .field-group with .input-field */
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input-field label {
+  font-size: 18px;
+  color: #666;
+}
+
+.input-field input,
+.input-field select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  font-size: 14px;
+  padding: 6px 2px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-field input:focus,
+.input-field select:focus {
+  border-bottom: 2px solid #d32f2f;
+}
+
+
+/* Checkbox */
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.checkbox-span{
+    font-size: 14px;
+}
+.checkbox-row input[type="checkbox"] {
+  accent-color: #d32f2f;  
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+/* Phone row styling */
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.phone-input-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* Dropdown styling */
+    .phone-input-group select {
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid #aaa; 
+    background: transparent;
+    font-size: 14px;
+    padding: 6px 2px;
+    color: #333;
+    outline: none;
+    appearance: none;
+    transition: border-color 0.3s;
+    }
+select option {
+  background-color: #fff;
+  color: #d32f2f;
+  font-size: 14px;
+  padding: 8px;
+}
+
+    /* Input styling */
+.phone-input-group input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #aaa; 
+  background: transparent;
+  font-size: 14px;
+  padding: 6px 2px;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+/* Focus effect for both */
+.phone-input-group select:focus,
+.phone-input-group input:focus {
+  border-bottom: 2px solid #d32f2f; /* red on focus */
+}
+
+
+
+
+
+.required-star {
+  color:#d32f2f;
+}
+.signup-button {
+  display: block;
+  margin: 0 auto 20px auto; 
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  background-color: #d32f2f;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+.field-error2 {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  text-align: left;
+  min-height: 16px;
+}
+ 

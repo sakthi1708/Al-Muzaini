@@ -1,0 +1,89 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px 15px 10px 15px;
+  border-radius: 16px;
+  width: 380px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+
+.modal-title {
+  margin-top: 0;
+  border-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.modal-close-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.modal-otp-icon {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.otp-instruction {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.otp-input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.otp-box {
+  width: 40px;
+  height: 45px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.resend-text {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.resend-link {
+  color: #d32f2f;
+  cursor: pointer;
+  font-weight: bold;
+}
+.modal-content .signup-button {
+  margin-bottom: 0; /* Overrides the default 40px only inside modal */
+}
